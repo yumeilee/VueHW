@@ -1,7 +1,7 @@
 <script setup>
 import { v4 as uuidv4 } from "uuid";
 import { ref, reactive } from 'vue';
-import TaskItem from '@/components/task/Item.vue';
+import TaskItem from '@/components/Task/Item.vue';
 
 const task = ref("");
 const tasks = reactive([]);
